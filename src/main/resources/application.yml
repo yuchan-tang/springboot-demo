@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: 19941227@Dog
+    url: jdbc:mysql://localhost:3306/huawei
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
